@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+.line:hover{
+  cursor: pointer;
+}
+
+.score{
+
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding-bottom: 20px;
+
+}
+div.score>img{
+  width: 40px;
+}
+div.score>p{
+  color: #707070;
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+.titleS{
+  font-size: 3vw;
+  color: #707070;
+  padding: 20px;
+  margin-left:auto;
+  margin-right:auto;
+  text-align: center;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
